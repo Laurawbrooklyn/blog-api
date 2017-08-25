@@ -1,6 +1,6 @@
 language: node_js
 node_js: node
-deploy: https://young-dusk-67406.herokuapp.com
+deploy: https://young-dusk-67406.herokuapp.com/
   provider: heroku
   api_key:
     secure: MYF/OddFaFr9N9lbGnKBn6u312SwimY5ycHhs2DCGWsoJVgOre9ecnZzn4l//IXcW15+xqjNf8mTPcA6Vb3q+xLrOfCxqcWXkuKLoKyCUhp1UkPe/w/iI/Zi50pmN/Ep2NBqFRQEof0Ah2/XRE/KCVkY8nRykpMxFCECmiOesZ6hX0lNs8xrlbaGbJbPTQnmdivJ6JPatJMPvKuHRxXxfdFNWn/TfcHguPFy77prh65ROkaAH7ZlXvtOtnXmkFYS1eg5ryVzPFf72w1i7qzgx083JNVNYHlLpdpBPNKrDfJduk86fdEoS9e8FL4uJZvndBchfOutECc18C0KcNmsw//25An5jYdfyDl6S5kbkt8LY+yOJYqkQaBsLlqdjIaBmx8aof/GA8cGCRAZix4Rp5/82SeCQre60O1yh+DZoLc6IezvH77I06BLCwW9A0itSbgnUJc5tQ6knt8x/ITX1+1SG2Yfgx0ZhKJc60QuycsMnaRvDHpPNKVLky6VkJa4dkvExiY0c+Skkk8UoOhr1wEuAYXQemlgwqyrYnqjnjvnWU8mVH/pqSVd6seb3yQKKV+yv/rgHfJ20emykX3UzJNhxkSWZ7tiFz4hTYq1ahM7SpzbZx9CWLvFhGgluRl/cbvtuxlEbnpk1CQgnFRUuihFNYJ9lM04CTn5rwS4EKE=
