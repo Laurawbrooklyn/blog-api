@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: VPIJMiPP2sf+HxeA134va6NKT+/lYliT69EJJiUCIySlb++khaOqA9E7XCc2UKXcO1+eXGeEqN9AlnNVdx9WX8NtF4b5dfckoSs665Nrw3S0WB33cS91AwgSnT3KAUGeGIDQDerqaUCaCyfm62LQEjSEqeoT1ZNtRPXnBDIFV+zJhASHCIjPuNhtysgB+nesLhLz2daVuW3qElc4M2PUfxIHu8E/Xf/IXaE4vQT7f4G/9AVB7IfSANRD4xyEg+4rqYSHh5N5u5v87hYBNe9rtYeBoqxpGrR08lFWADtKuQjLlXDu3/48b8tKC6tkUwIDk/Vk7RGgmyiuuXp2sBJ6uzFG+4tbXJ6hA7C1+ZajDM/bJ4OOS4n5EiWF0QUvivhkavcxri3yFZqoJmoPSsp2inFibmV/KkU8tlyNvCXU0UXmEorusfGliz5EjRj2MqfvN2tb3xLFIzbFREt9dX7sTUCsPeVozfXNEeba7dQeGeVuqRqvR5P9sAXO6/n1gv0nEqGgV2PYLCrQWbLtCyJCRsurYUIm8i62VQHikyPPOPxCQeGCWkVFb7BGdYrox0Rp6zosAi/8UVFPO7hZnrOus820VKEh1E21i86EQRjRwIAiZBfEJx6bT4WVMAMCvuhpf7JtS2V13P7AtwU8ZvmPvJyJUxq1pe9B0XOoISVLGNM=
+  app: young-dusk-67406
+  on:
+    repo: Laurawbrooklyn/blog-api
