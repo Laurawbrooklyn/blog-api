@@ -3,6 +3,7 @@ const router = express.Router();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
+
 const {BlogPosts} = require('./models');
 
 const jsonParser = bodyParser.json();
@@ -10,7 +11,6 @@ const app = express();
 
 app.use(morgan('common'));
 
-//Not sure if we need a create feature?//
 BlogPosts.create('id1', 'title1', 'some content...', 'author1', 'date1');
 BlogPosts.create('id2', 'title2', 'some content...', 'author2', 'date2');
 BlogPosts.create('id3', 'title3', 'some content...', 'author3', 'date3');
